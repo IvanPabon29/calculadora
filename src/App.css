@@ -1,0 +1,64 @@
+/* Generales */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Courier New', Courier, monospace;
+  background-color: rgba(111, 3, 165, 0.7);
+}
+.App{
+  height: 100vh;
+  width: 100%; 
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+/* Logo */
+
+.logo-contenedor{
+  width: 700px;
+  height: 70px;
+  margin-bottom: 10px;
+  padding: 5px;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+}
+.logo{
+  width: 60px;
+  margin-left: 5px;
+  transform: rotate(-30deg);
+}
+.logo:hover{
+  transform: none;
+  transition: .1s;
+}
+
+/* Contendor Calculadora */
+
+.contenedor-calculadora{
+  width: 450px;
+  height: 500px;
+  padding: 15px;
+  border-radius: 15px;
+  background-color: rgb(171, 171, 171);
+  border: 3px solid black;
+}
+
+/* Filas Calculadora */
+
+.fila{
+  margin: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
